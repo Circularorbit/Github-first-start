@@ -1,4 +1,8 @@
-1. 查看版本
+配置用户名
+
+配置邮箱
+
+1. 查看git版本信息
 git -v
 
 2. 初始化git本地仓库
@@ -7,21 +11,24 @@ git init
 3. 查看当前状态
 git status
 
-4. 添加到提交列表
+4. 添加文件到暂存区
 git add <文件名/通配符>
 
-5. 生成一个版本
+5. 将暂存区文件提交到版本区
 git commit -m '<版本信息>'
 
-6. 从提交列表中移除
-git rm <文件名>
+6. 将暂存区文件取消
+git reset Head <文件名>
 
-7. 恢复回退为原来的文件
-git restore <文件名>
-
-8. 查看版本信息
+7. 查看版本信息
 git log
 
-9. 回退版本
+8. 回退到历史版本
 git reset --hard <原来的hash值>
 
+9. 恢复已修改的文件
+git checkout -- <文件名>
+
+10. 回退到已回退版本前的版本
+git reflog
+git reset --hard <原来的hash值>
