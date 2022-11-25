@@ -57,4 +57,5 @@ git push -u origin <分支名>
 18. 从远程仓库中复制项目
 git clone https://github.com/Circularorbit/test.git
 
-19. 
+19. 更新远程仓库的代码
+git pull origin dev
