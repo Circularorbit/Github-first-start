@@ -1,0 +1,14 @@
+1. 查看版本
+git -v
+
+2. 初始化git本地仓库
+git init
+
+3. 查看当前状态
+git status
+
+4. 添加到提交列表
+git add *
+
+5. 生成一个版本
+git commit -m ''
