@@ -49,7 +49,7 @@ git checkout <分支名>
 git merge <被合并的分支>
 
 16. 设立远程git仓库
-git remote add orgin https://github.com/Circularorbit/test.git
+git remote add origin https://github.com/Circularorbit/test.git
 
 17. 提交到远程仓库
 git push -u orgin master
