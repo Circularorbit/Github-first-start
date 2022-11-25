@@ -45,5 +45,11 @@ git branch -d <分支名>
 14. 切换分支
 git checkout <分支名>
 
-15. 合并分支
+15. 合并分支[合并以后, 被合并的分支依然存在, 且无变化]
 git merge <被合并的分支>
+
+16. 设立远程git仓库
+git remote add orgin https://github.com/Circularorbit/test.git
+
+17. 提交到远程仓库
+git push -u orgin master
