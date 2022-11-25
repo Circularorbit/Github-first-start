@@ -32,3 +32,17 @@ git checkout -- <文件名>
 10. 回退到已回退版本前的版本
 git reflog
 git reset --hard <原来的hash值>
+
+11. 查看分支
+git branch
+
+12. 从当前分支创建分支
+git branch <分支名>
+
+13. 删除分支
+git branch -d <分支名>
+
+14. 切换分支
+git checkout <分支名>
+
+<This is a bug!>
