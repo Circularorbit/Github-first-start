@@ -58,4 +58,7 @@ git push -u origin <分支名>
 git clone https://github.com/Circularorbit/test.git
 
 19. 更新远程仓库的代码
-git pull origin dev
+git pull origin <分支名>
+等价于
+git fetch origin <分支名>
+git merge origin/<分支名>
