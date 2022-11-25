@@ -47,4 +47,4 @@ git checkout <分支名>
 
 <This is a bug!>
 
-<This is dev branch content!>
+<This is dev branch content compeleted!>
