@@ -62,3 +62,19 @@ git pull origin <分支名>
 等价于
 git fetch origin <分支名>
 git merge origin/<分支名>
+
+20. 合并版本提交信息[注意: 避免合并已经提交到远程仓库的版本]
+git rebase Head~数量
+git rebase -i <哈希值>
+
+21. rebase合并分支
+(子分支)git rebase <主分支名>
+(主分支)git merge <子分支>
+
+22. rebase命令合并过程出现的冲突问题解决
+(1) 解决冲突
+(2) git add .
+(3) git rebase --continue
+
+
+
