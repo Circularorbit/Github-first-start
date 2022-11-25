@@ -44,3 +44,6 @@ git branch -d <分支名>
 
 14. 切换分支
 git checkout <分支名>
+
+15. 合并分支
+git merge <被合并的分支>
