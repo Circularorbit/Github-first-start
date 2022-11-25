@@ -52,4 +52,4 @@ git merge <被合并的分支>
 git remote add origin https://github.com/Circularorbit/test.git
 
 17. 提交到远程仓库
-git push -u orgin master
+git push -u origin master
