@@ -46,3 +46,5 @@ git branch -d <分支名>
 git checkout <分支名>
 
 <This is a bug!>
+
+<This is dev branch content!>
