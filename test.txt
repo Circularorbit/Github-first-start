@@ -1,6 +1,17 @@
-配置用户名
+基础配置
+（1）打开 git 命令窗口
 
-配置邮箱
+（2）配置用户名（填自己的姓名）
+git config --global user.name <用户名>
+
+（3）配置用户邮箱（填自己的邮箱）
+git config --global user.email <邮箱>
+
+（4）生成公钥、秘钥（填自己的邮箱，执行后需要按几次 enter 直到结束）
+ssh-keygen -t rsa -C <邮箱>
+
+（5）配置 ssh 变量
+git config --global ssh.variant ssh
 
 1. 查看git版本信息
 git -v
